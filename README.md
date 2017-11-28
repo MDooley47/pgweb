@@ -8,11 +8,19 @@ Web-based PostgreSQL database browser written in Go.
 [![Go Report Card](https://goreportcard.com/badge/github.com/sosedoff/pgweb)](https://goreportcard.com/report/github.com/sosedoff/pgweb)
 [![GoDoc](https://godoc.org/github.com/sosedoff/pgweb?status.svg)](https://godoc.org/github.com/sosedoff/pgweb)
 
+## Docker
+
+To quickly use with Docker run these commands:
+```
+docker build -t pgweb .
+docker run --name pgweb -p 8081:8081 -d pgweb
+```
+
 ## Overview
 
 Pgweb is a web-based database browser for PostgreSQL, written in Go and works
 on OSX, Linux and Windows machines. Main idea behind using Go for backend development
-is to utilize ability of the compiler to produce zero-dependency binaries for 
+is to utilize ability of the compiler to produce zero-dependency binaries for
 multiple platforms. Pgweb was created as an attempt to build very simple and portable
 application to work with local or remote PostgreSQL databases.
 
@@ -40,7 +48,7 @@ Visit https://pgweb-demo.herokuapp.com to see pgweb in action.
 
 ## Installation
 
-[Precompiled binaries](https://github.com/sosedoff/pgweb/releases) for supported 
+[Precompiled binaries](https://github.com/sosedoff/pgweb/releases) for supported
 operating systems are available.
 
 [More installation options](https://github.com/sosedoff/pgweb/wiki/Installation)
@@ -116,7 +124,7 @@ make test-all
 
 If you or your company would like to sponsor a custom feature, please let me know
 via email (see contact section). Custom features are developed exclusively for the
-client and not committed to the public repo. 
+client and not committed to the public repo.
 
 ## Donations
 
@@ -127,7 +135,7 @@ the following platforms:
 - Paypal: dan.sosedoff@gmail.com
 - Bitcoin: 1qAGohEhuNEkJEhHyEQfLgXAwY7dWRhmU
 
-Any contribution is much appreciated. 
+Any contribution is much appreciated.
 
 ## Contact
 
